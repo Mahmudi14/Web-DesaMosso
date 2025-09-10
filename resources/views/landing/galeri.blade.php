@@ -10,12 +10,12 @@
         <!-- Item Galeri -->
         <div class="col-md-4">
             <div class="card shadow-lg border-0 rounded-4 h-100 gallery-item" data-bs-toggle="modal"
-                data-bs-target="#galleryModal" data-img="{{ asset('assets/img/galeri/bulllying.jpg') }}"
-                data-title="Sosialisasi Anti Bullying" data-date="12 Agustus 2025">
-                <img src="{{ asset('assets/img/galeri/bulllying.jpg') }}" class="card-img-top rounded-top-4 gallery-img"
+                data-bs-target="#galleryModal" data-img="{{ asset('assets/img/galeri/seminar1.jpg') }}"
+                data-title="Seminar Kelurahan Mosso Dhua" data-date="12 Agustus 2025">
+                <img src="{{ asset('assets/img/galeri/seminar1.jpg') }}" class="card-img-top rounded-top-4 gallery-img"
                     alt="Gotong Royong">
                 <div class="card-body text-center">
-                    <h5 class="fw-bold">Sosialisasi Anti Bullying</h5>
+                    <h5 class="fw-bold">Seminar Kelurahan Mosso Dhua</h5>
                     <p class="text-muted">12 Agustus 2025</p>
                 </div>
             </div>
@@ -23,68 +23,30 @@
         <!-- Item Galeri -->
         <div class="col-md-4">
             <div class="card shadow-lg border-0 rounded-4 h-100 gallery-item" data-bs-toggle="modal"
-                data-bs-target="#galleryModal" data-img="{{ asset('assets/img/galeri/lomba.jpg') }}"
-                data-title="Kegiatan HUT 80" data-date="05 Juli 2025">
-                <img src="{{ asset('assets/img/galeri/lomba.jpg') }}" class="card-img-top rounded-top-4 gallery-img"
+                data-bs-target="#galleryModal" data-img="{{ asset('assets/img/galeri/seminar2.jpg') }}"
+                data-title="Seminar Kelurahan Mosso Dhua" data-date="12 Agustus 2025">
+                <img src="{{ asset('assets/img/galeri/seminar2.jpg') }}" class="card-img-top rounded-top-4 gallery-img"
                     alt="Gotong Royong">
                 <div class="card-body text-center">
-                    <h5 class="fw-bold">Kegiatan HUT 80</h5>
-                    <p class="text-muted">05 Juli 2025</p>
+                    <h5 class="fw-bold">Seminar Kelurahan Mosso Dhua</h5>
+                    <p class="text-muted">12 Agustus 2025</p>
                 </div>
             </div>
         </div>
         <!-- Item Galeri -->
         <div class="col-md-4">
             <div class="card shadow-lg border-0 rounded-4 h-100 gallery-item" data-bs-toggle="modal"
-                data-bs-target="#galleryModal" data-img="{{ asset('assets/img/galeri/phbs.jpg') }}"
-                data-title="Sosialisasi PHBS" data-date="17 Agustus 2025">
-                <img src="{{ asset('assets/img/galeri/phbs.jpg') }}" class="card-img-top rounded-top-4 gallery-img"
+                data-bs-target="#galleryModal" data-img="{{ asset('assets/img/galeri/seminar3.jpg') }}"
+                data-title="Seminar Kelurahan Mosso Dhua" data-date="12 Agustus 2025">
+                <img src="{{ asset('assets/img/galeri/seminar3.jpg') }}" class="card-img-top rounded-top-4 gallery-img"
                     alt="Gotong Royong">
                 <div class="card-body text-center">
-                    <h5 class="fw-bold">Sosialisasi PHBS</h5>
-                    <p class="text-muted">17 Agustus 2025</p>
+                    <h5 class="fw-bold">Seminar Kelurahan Mosso Dhua</h5>
+                    <p class="text-muted">12 Agustus 2025</p>
                 </div>
             </div>
         </div>
-        <!-- Item Galeri -->
-        <div class="col-md-4">
-            <div class="card shadow-lg border-0 rounded-4 h-100 gallery-item" data-bs-toggle="modal"
-                data-bs-target="#galleryModal" data-img="{{ asset('assets/img/galeri/sd.jpg') }}"
-                data-title="Bimbingan Belajar SD" data-date="1 Agustus 2025">
-                <img src="{{ asset('assets/img/galeri/sd.jpg') }}" class="card-img-top rounded-top-4 gallery-img"
-                    alt="Gotong Royong">
-                <div class="card-body text-center">
-                    <h5 class="fw-bold">Bimbingan Belajar SD</h5>
-                    <p class="text-muted">1 Agustus 2025</p>
-                </div>
-            </div>
-        </div>
-        <!-- Item Galeri -->
-        <div class="col-md-4">
-            <div class="card shadow-lg border-0 rounded-4 h-100 gallery-item" data-bs-toggle="modal"
-                data-bs-target="#galleryModal" data-img="{{ asset('assets/img/galeri/Rapat.jpg') }}"
-                data-title="Rapat Persiapan Kegiatan Lomba HUT 80" data-date="15 Agustus 2025">
-                <img src="{{ asset('assets/img/galeri/Rapat.jpg') }}" class="card-img-top rounded-top-4 gallery-img"
-                    alt="Gotong Royong">
-                <div class="card-body text-center">
-                    <h5 class="fw-bold">Rapat Persiapan Kegiatan Lomba HUT 80</h5>
-                    <p class="text-muted">15 Agustus 2025</p>
-                </div>
-            </div>
-        </div>
-        <!-- Item Galeri -->
-        <div class="col-md-4">
-            <div class="card shadow-lg border-0 rounded-4 h-100 gallery-item" data-bs-toggle="modal"
-                data-bs-target="#galleryModal" data-img="{{ asset('assets/img/galeri/keungan.jpg') }}"
-                data-title="SOsialisasi Keuangan" data-date="28 September 2025">
-                <img src="{{ asset('assets/img/galeri/keungan.jpg') }}" class="card-img-top rounded-top-4 gallery-img"
-                    alt="Gotong Royong">
-                <div class="card-body text-center">
-                    <h5 class="fw-bold">Sosialisasi Keuangan</h5>
-                    <p class="text-muted">28 September 2025</p>
-                </div>
-            </div>
-        </div>
+
 
         <!-- (copy item galeri lainnya seperti sebelumnya) -->
     </div>

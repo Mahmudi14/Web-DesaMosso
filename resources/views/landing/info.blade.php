@@ -1,9 +1,40 @@
 @extends('layout.master')
+@push('styles')
+<style>
+    .card {
+        background: #ffffff;
+        border-radius: 1.2rem;
+    }
 
+    .card-body h5 {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    table thead {
+        border-radius: 12px 12px 0 0;
+    }
+
+    table tbody tr {
+        transition: 0.3s;
+    }
+
+    table tbody tr:hover {
+        background-color: rgba(13, 110, 253, 0.1);
+        transform: scale(1.01);
+    }
+
+    table td,
+    table th {
+        padding: 14px 16px;
+    }
+</style>
+@endpush
 @section('content')
 <div class="container py-5 mt-5">
-    <h2 class="text-center mb-4 fw-bold">Informasi Desa Tubo Selatan</h2>
-    <p class="text-center text-muted mb-5">Data umum terkait kondisi penduduk, wilayah, dan fasilitas Desa Tubo Selatan.
+    <h2 class="text-center mb-4 fw-bold">Informasi Kelurahan Mosso Dhua</h2>
+    <p class="text-center text-muted mb-5">Data umum terkait kondisi penduduk, wilayah, dan fasilitas Kelurahan
+        Mosso Dhua
     </p>
 
     <!-- Statistik Utama -->
@@ -14,7 +45,7 @@
                 <div class="card-body text-center">
                     <i class="bi bi-map text-primary display-4 mb-3"></i>
                     <h5 class="fw-bold">Luas Wilayah</h5>
-                    <p class="fs-5">45,6 km²</p>
+                    <p class="fs-5">1.264,436 hektare</p>
                 </div>
             </div>
         </div>
@@ -36,7 +67,7 @@
                 <div class="card-body text-center">
                     <i class="bi bi-house-door-fill text-warning display-4 mb-3"></i>
                     <h5 class="fw-bold">Jumlah KK</h5>
-                    <p class="fs-5">856 KK</p>
+                    <p class="fs-5">445 KK</p>
                 </div>
             </div>
         </div>
@@ -47,7 +78,7 @@
                 <div class="card-body text-center">
                     <i class="bi bi-gender-male text-info display-4 mb-3"></i>
                     <h5 class="fw-bold">Jumlah Laki-laki</h5>
-                    <p class="fs-5">1.620 Jiwa</p>
+                    <p class="fs-5">876 Jiwa</p>
                 </div>
             </div>
         </div>
@@ -58,24 +89,12 @@
                 <div class="card-body text-center">
                     <i class="bi bi-gender-female text-danger display-4 mb-3"></i>
                     <h5 class="fw-bold">Jumlah Perempuan</h5>
-                    <p class="fs-5">1.594 Jiwa</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Jumlah Lansia -->
-        <div class="col-md-4">
-            <div class="card shadow-lg border-0 rounded-4 h-100 hover-shadow">
-                <div class="card-body text-center">
-                    <i class="bi bi-heart-pulse-fill text-pink display-4 mb-3"></i>
-                    <h5 class="fw-bold">Jumlah Lansia</h5>
-                    <p class="fs-5">312 Jiwa</p>
+                    <p class="fs-5">866 Jiwa</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Grafik Statistik -->
     <div class="row mb-5">
         <div class="col-md-6">
             <div class="card shadow-lg rounded-4 border-0">
@@ -96,54 +115,74 @@
         </div>
     </div>
 
+    <!-- Grafik Pendidikan -->
+    <div class="row mb-5">
+        <div class="col-12">
+            <div class="card shadow-lg rounded-4 border-0">
+                <div class="card-body">
+                    <h5 class="fw-bold mb-3">Tingkat Pendidikan Penduduk</h5>
+                    <canvas id="educationChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- Tabel Dusun -->
     <div class="card shadow-lg rounded-4 border-0">
         <div class="card-body">
-            <h5 class="fw-bold mb-3">Jumlah Penduduk per Dusun</h5>
+            <h5 class="fw-bold mb-4 text-primary">
+                <i class="bi bi-geo-alt-fill me-2"></i> Luas Wilayah per Lingkungan
+            </h5>
             <div class="table-responsive">
-                <table class="table table-striped align-middle">
-                    <thead class="table-primary">
+                <table class="table table-hover table-borderless align-middle">
+                    <thead class="bg-gradient bg-primary text-white rounded-top">
                         <tr>
-                            <th>No</th>
-                            <th>Nama Dusun</th>
-                            <th>Jumlah KK</th>
-                            <th>Jumlah Jiwa</th>
-                            <th>Laki-laki</th>
-                            <th>Perempuan</th>
+                            <th scope="col">No</th>
+                            <th scope="col">Nama Lingkungan</th>
+                            <th scope="col">Luas Wilayah (Ha)</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>1</td>
-                            <td>Dusun Pesisir</td>
-                            <td>120</td>
-                            <td>500</td>
-                            <td>260</td>
-                            <td>240</td>
+                            <td>Apoleang Utara</td>
+                            <td>172,244</td>
                         </tr>
                         <tr>
                             <td>2</td>
-                            <td>Dusun Tengah</td>
-                            <td>180</td>
-                            <td>750</td>
-                            <td>380</td>
-                            <td>370</td>
+                            <td>Apoleang Selatan</td>
+                            <td>65,373</td>
                         </tr>
                         <tr>
                             <td>3</td>
-                            <td>Dusun Pegunungan</td>
-                            <td>100</td>
-                            <td>400</td>
-                            <td>210</td>
-                            <td>190</td>
+                            <td>Mosso Malayu</td>
+                            <td>18,486</td>
                         </tr>
                         <tr>
                             <td>4</td>
-                            <td>Dusun Selatan</td>
-                            <td>150</td>
-                            <td>600</td>
-                            <td>300</td>
-                            <td>300</td>
+                            <td>Mosso</td>
+                            <td>66,204</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Kampung Lele</td>
+                            <td>78,493</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Mandalle</td>
+                            <td>444,813</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Pumbalar</td>
+                            <td>351,746</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Tammalupu</td>
+                            <td>67,075</td>
                         </tr>
                     </tbody>
                 </table>
@@ -163,7 +202,7 @@
         data: {
             labels: ['Laki-laki', 'Perempuan'],
             datasets: [{
-                data: [1620, 1594],
+                data: [876, 866],
                 backgroundColor: ['#0dcaf0', '#dc3545']
             }]
         }
@@ -173,11 +212,39 @@
     new Chart(document.getElementById('ageChart'), {
         type: 'bar',
         data: {
-            labels: ['Anak-anak', 'Usia Produktif', 'Lansia'],
+            labels: ['Usia Produktif', 'Usia Non Produktif'],
             datasets: [{
                 label: 'Jumlah Jiwa',
-                data: [500, 2402, 312],
-                backgroundColor: ['#ffc107', '#198754', '#6f42c1']
+                data: [1069, 358],
+                backgroundColor: ['#198754', '#6f42c1']
+            }]
+        }
+    });
+
+     // Grafik Tingkat Pendidikan
+    new Chart(document.getElementById('educationChart'), {
+        type: 'pie',
+        data: {
+            labels: [
+                'Tidak Punya Ijazah',
+                'SD/Sederajat',
+                'SMP/Sederajat',
+                'SMA/Sederajat',
+                'D-1/D-2/D-3',
+                'D-4/S-1',
+                'S-2'
+            ],
+            datasets: [{
+                data: [518, 482, 242, 331, 39, 127, 3],
+                backgroundColor: [
+                    '#6c757d',
+                    '#ffc107',
+                    '#0dcaf0',
+                    '#198754',
+                    '#fd7e14',
+                    '#0d6efd',
+                    '#dc3545'
+                ]
             }]
         }
     });

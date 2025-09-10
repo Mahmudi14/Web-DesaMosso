@@ -139,7 +139,7 @@
         <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
           <h1 class="mb-4">
             Selamat Datang di Website Resmi <br>
-            <span class="accent-text">Desa Mosso Dhua</span>
+            <span class="accent-text">Kelurahan Mosso Dhua</span>
           </h1>
 
           <p class="mb-4 mb-md-5 text-muted">
@@ -174,7 +174,7 @@
           </div>
           <div class="stat-content">
             <p class="mb-0">Jumlah Penduduk</p>
-            <h4>233 Jiwa</h4>
+            <h4>1.742 Jiwa</h4>
           </div>
         </div>
       </div>
@@ -185,7 +185,7 @@
           </div>
           <div class="stat-content">
             <p class="mb-0">Luas Wilayah</p>
-            <h4>100 KM</h4>
+            <h4>1.264,436 hektare</h4>
           </div>
         </div>
       </div>
@@ -196,7 +196,7 @@
           </div>
           <div class="stat-content">
             <p class="mb-0">Jumlah Kepala Keluarga</p>
-            <h4>100</h4>
+            <h4>445</h4>
           </div>
         </div>
       </div>
@@ -206,8 +206,8 @@
             <i class="bi bi-map"></i>
           </div>
           <div class="stat-content">
-            <p class="mb-0">Jumlah Dusun</p>
-            <h4>6</h4>
+            <p class="mb-0">Jumlah Lingkungan</p>
+            <h4>8</h4>
           </div>
         </div>
       </div>
@@ -224,23 +224,23 @@
 
       <div class="col-xl-5" data-aos="fade-up" data-aos-delay="200">
         <span class="about-meta">Sambutan</span>
-        <h2 class="about-title">Kepala Desa Tubo Selatan</h2>
-        <p class="about-description">Selamat datang di Website Resmi Desa Tubo Selatan.
+        <h2 class="about-title">Lurah Mosso Dhua</h2>
+        <p class="about-description">Selamat datang di Website Resmi Kelurahan Mosso Dhua.
 
           Website ini kami hadirkan sebagai sarana informasi, komunikasi, dan transparansi bagi seluruh masyarakat.
-          Melalui platform ini, kami berharap warga dapat lebih mudah mengakses berita, program, serta layanan desa
+          Melalui platform ini, kami berharap warga dapat lebih mudah mengakses berita, program, serta layanan Kelurahan
           secara cepat dan tepat.
 
           Semoga website ini dapat menjadi jembatan untuk mempererat kebersamaan, memperluas wawasan, dan mendukung
-          pembangunan Desa Tubo Selatan yang maju, sejahtera, dan berdaya saing.</p>
+          pembangunan Kelurahan Mosso Dhua yang maju, sejahtera, dan berdaya saing.</p>
 
         <div class="info-wrapper">
           <div class="row gy-4">
-            <div class="col-lg-5">
+            <div class="col-lg-12">
               <div class="profile d-flex align-items-center gap-3">
                 <div>
-                  <h4 class="profile-name">Jalaluddin, S.Pd.I</h4>
-                  <p class="profile-position">Kepala Desa Tubo Selatan</p>
+                  <h4 class="profile-name">Skrikandi M. Mandra, S.Pd</h4>
+                  <p class="profile-position">Lurah Mosso Dhua</p>
                 </div>
               </div>
             </div>
@@ -248,10 +248,10 @@
         </div>
       </div>
 
-      <div class="col-xl-6" data-aos="fade-up" data-aos-delay="300">
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
         <div class="image-wrapper">
           <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
-            <img src="{{ asset('assets') }}/img/kepala-desa.png" alt="Business Meeting"
+            <img src="{{ asset('assets') }}/img/siluet.jpg" alt="Business Meeting"
               class="img-fluid main-image rounded-4">
           </div>
         </div>
@@ -265,7 +265,7 @@
 <section id="features" class="features section">
   <div class="container section-title" data-aos="fade-up">
     <h2>SOTK</h2>
-    <p>Struktur Organisasi dan Tata Kerja Desa Tubo Selatan</p>
+    <p>Struktur Organisasi Kelurahan Mosso Dhua</p>
   </div>
 
   <div class="container">
@@ -274,11 +274,6 @@
         <li class="nav-item">
           <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#pemerintah">
             <h4>Pemerintah Desa</h4>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#bpd">
-            <h4>BPD</h4>
           </a>
         </li>
       </ul>
@@ -291,11 +286,11 @@
           <div class="col-lg-4 col-md-6">
             <div class="official-card">
               <div class="official-card__avatar-wrapper">
-                <img src="{{ asset('assets/img/kepala-desa2.jpg') }}" class="official-card__avatar"
-                  alt="Foto Kepala Desa Jalaluddin, S.Pd.I">
+                <img src="{{ asset('assets/img/siluet.jpg') }}" class="official-card__avatar"
+                  alt="Foto Lurah Skrikandi M. Mandra, S.Pd">
               </div>
-              <h5 class="official-card__name">Jalaluddin, S.Pd.I</h5>
-              <p class="official-card__position">Kepala Desa</p>
+              <h5 class="official-card__name">Skrikandi M. Mandra, S.Pd</h5>
+              <p class="official-card__position">Lurah</p>
             </div>
           </div>
 
@@ -305,63 +300,12 @@
                 <img src="{{ asset('assets/img/siluet.jpg') }}" class="official-card__avatar"
                   alt="Foto Sekretaris Desa">
               </div>
-              <h5 class="official-card__name">Abdul Gafur, S.Pd.I</h5>
-              <p class="official-card__position">Sekretaris Desa</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="official-card">
-              <div class="official-card__avatar-wrapper">
-                <img src="{{ asset('assets/img/siluet.jpg') }}" class="official-card__avatar" alt="Foto Bendahara Desa">
-              </div>
-              <h5 class="official-card__name">Muh. Arfah, S.Pd</h5>
-              <p class="official-card__position">Bendahara Umum</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="text-center mt-5">
-          <a href="{{ route('profil-desa') }}" class="btn btn-primary btn-view-structure">
-            Lihat Struktur Lengkap
-            <i class="bi bi-arrow-right-short"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- BPD -->
-      <div class="tab-pane fade" id="bpd">
-        <div class="row gy-4 justify-content-center">
-          <div class="col-lg-4 col-md-6">
-            <div class="official-card">
-              <div class="official-card__avatar-wrapper">
-                <img src="{{ asset('assets/img/siluet.jpg') }}" class="official-card__avatar" alt="Foto Ketua BPD">
-              </div>
-              <h5 class="official-card__name">Hamzah, S.Sos</h5>
-              <p class="official-card__position">Ketua</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="official-card">
-              <div class="official-card__avatar-wrapper">
-                <img src="{{ asset('assets/img/siluet.jpg') }}" class="official-card__avatar"
-                  alt="Foto Wakil Ketua BPD">
-              </div>
-              <h5 class="official-card__name">Nama Wakil Ketua BPD</h5>
-              <p class="official-card__position">Wakil Ketua</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="official-card">
-              <div class="official-card__avatar-wrapper">
-                <img src="{{ asset('assets/img/siluet.jpg') }}" class="official-card__avatar" alt="Foto Sekretaris BPD">
-              </div>
-              <h5 class="official-card__name">Nama Sekretaris BPD</h5>
+              <h5 class="official-card__name">Muh. Idris Alwi, SE</h5>
               <p class="official-card__position">Sekretaris</p>
             </div>
           </div>
-          <!-- Tambahkan anggota BPD lain di sini -->
         </div>
+
         <div class="text-center mt-5">
           <a href="{{ route('profil-desa') }}" class="btn btn-primary btn-view-structure">
             Lihat Struktur Lengkap
@@ -379,19 +323,21 @@
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
     <h2>Galeri</h2>
-    <p>Dokumentasi foto berbagai kegiatan, potensi desa, dan kehidupan masyarakat di Desa Tubo Selatan.</p>
+    <p>Dokumentasi foto berbagai kegiatan, potensi desa, dan kehidupan masyarakat di Kelurahan Mosso Dhua.</p>
   </div><!-- End Section Title -->
 
   <div class="container" data-aos="fade-up" data-aos-delay="100">
 
     <div class="row g-4">
 
+
       <!-- Card Galeri -->
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
         <div class="gallery-card">
-          <img src="{{ asset('assets/img/galeri/bulllying.jpg') }}" alt="Foto Kegiatan Sosialisasi" class="gallery-img">
+          <img src="{{ asset('assets/img/galeri/seminar1.jpg') }}" alt="Foto Seminar Kelurahan Mosso Dhua"
+            class="gallery-img">
           <div class="gallery-content">
-            <h5 class="gallery-title">Sosialisasi Anti Bullying</h5>
+            <h5 class="gallery-title">Seminar Kelurahan Mosso Dhua</h5>
             <p class="gallery-date"><i class="bi bi-calendar-event"></i> 12 Agustus 2025</p>
           </div>
         </div>
@@ -399,20 +345,22 @@
 
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="gallery-card">
-          <img src="{{ asset('assets/img/galeri/lomba.jpg') }}" alt="Foto Kegiatan 17 Agustus" class="gallery-img">
+          <img src="{{ asset('assets/img/galeri/seminar2.jpg') }}" alt="Foto Seminar Kelurahan Mosso Dhua"
+            class="gallery-img">
           <div class="gallery-content">
-            <h5 class="gallery-title">Kegiatan HUT 80</h5>
-            <p class="gallery-date"><i class="bi bi-calendar-event"></i> 05 Juli 2025</p>
+            <h5 class="gallery-title">Seminar Kelurahan Mosso Dhua</h5>
+            <p class="gallery-date"><i class="bi bi-calendar-event"></i> 12 Agustus 2025</p>
           </div>
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
         <div class="gallery-card">
-          <img src="{{ asset('assets/img/galeri/phbs.jpg') }}" alt="Foto Sosialisasi PHBS" class="gallery-img">
+          <img src="{{ asset('assets/img/galeri/seminar3.jpg') }}" alt="Foto Seminar Kelurahan Mosso Dhua"
+            class="gallery-img">
           <div class="gallery-content">
-            <h5 class="gallery-title">Sosialisasi PHBS</h5>
-            <p class="gallery-date"><i class="bi bi-calendar-event"></i> 17 Agustus 2025</p>
+            <h5 class="gallery-title">Seminar Kelurahan Mosso Dhua</h5>
+            <p class="gallery-date"><i class="bi bi-calendar-event"></i> 12 Agustus 2025</p>
           </div>
         </div>
       </div>
@@ -439,7 +387,7 @@
       <div class="text-center">
         <h3>Peta Desa</h3>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7967.990925269938!2d118.77184641233924!3d-3.0958648374668583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d934fcb4db12c79%3A0x7d810690973451af!2sKantor%20Desa%20Tubo%20Selatan!5e0!3m2!1sen!2sid!4v1755091761634!5m2!1sen!2sid"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31862.114811538577!2d118.86638400400102!3d-3.4075469393450506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d94a53ec8c86025%3A0x108c725dd08901be!2sMosso%20Dhua%2C%20Kec.%20Sendana%2C%20Kabupaten%20Majene%2C%20Sulawesi%20Barat!5e0!3m2!1sid!2sid!4v1757425546159!5m2!1sid!2sid"
           width="1000" height="400" style="border:0;" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade">
         </iframe>
@@ -473,7 +421,7 @@
             </div>
             <div class="content">
               <h4>Alamat</h4>
-              <p>Tubo Selatan, Kec. Tubo Sendana, Kabupaten Majene, Sulawesi Barat</p>
+              <p>Mosso Dhua, Kec. Sendana, Kabupaten Majene, Sulawesi Barat</p>
             </div>
           </div>
 

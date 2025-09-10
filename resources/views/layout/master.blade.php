@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Desa Tubo Selatan</title>
+    <title>Kelurahan Mosso Dhua</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
 
